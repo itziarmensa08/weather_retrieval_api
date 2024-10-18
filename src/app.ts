@@ -8,7 +8,7 @@ const app = express();
 app.use(cors());
 app.use(router);
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3000;
 
 let server = app.listen(PORT, () => {
     console.log(`App listening at http://localhost/${PORT}`);
