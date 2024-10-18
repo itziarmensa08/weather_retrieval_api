@@ -10,6 +10,8 @@ app.use(router);
 
 const PORT = process.env.PORT || 3001;
 
-app.listen(PORT, () => {
+let server = app.listen(PORT, () => {
     console.log(`App listening at http://localhost/${PORT}`);
 });
+
+export { app, server };
