@@ -10,7 +10,6 @@ export class Weather {
         public readonly wind: Wind,
         public readonly cloudCoverage: number,
         public readonly description: string,
-        public readonly sun: Sun,
-        public readonly timestamp: number
+        public readonly sun: Sun
     ) {}
 }
